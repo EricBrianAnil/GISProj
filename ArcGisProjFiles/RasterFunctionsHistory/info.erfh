@@ -1,0 +1,42 @@
+{
+  "version" : 1,
+  "name" : "Raster Functions History",
+  "historyItems" : [
+    {
+      "id" : "{F8BACD46-9BEB-4E34-9D12-96EE9BF3104E}",
+      "type" : 1,
+      "status" : 4,
+      "name" : "Multidimensional Filter",
+      "description" : "Applies a filter on a multidimensional raster dataset.",
+      "rftPath" : "Multidimensional Filter_{F8BACD46-9BEB-4E34-9D12-96EE9BF3104E}.rft.xml",
+      "startTime" : "637694533740000000",
+      "endTime" : "637694533740000000",
+      "validationMessages" : [
+        "The dataset variable 'Raster' is not assigned."
+      ],
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Parameter 'Raster' is missing or invalid. Bind failed in function 'Multidimensional Filter' [Multidimensional Filter Function].",
+            "Type" : 100
+          },
+          {
+            "Text" : "Failed.",
+            "Type" : 100
+          }
+        ]
+      }
+    }
+  ]
+}
